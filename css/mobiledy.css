@@ -71,6 +71,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     font-size: 0;
+    position: relative;
 }
 .HomeNav-contentName{
     position: relative;
@@ -81,5 +82,14 @@
     line-height: .44rem;
     font-size: .14rem;
     color: #3f3f3f;
-
+}
+.home-nav-classify{
+    background-image: url(../moible-img/more-logo.png);
+    background-size: 100%;
+    width: .44rem;
+    height: .44rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
