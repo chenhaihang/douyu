@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>斗鱼</title>
+  <script type="text/javascript">
+    function init() {
+      var width = document.documentElement.clientWidth;
+      //动态设置设备的html字体大小
+      document.documentElement.style.fontSize = width / 3.75 + 'px';
+    }
+
+    init()
+    //当屏幕宽度变化时
+    window.addEventListener('resize', init)
+    //当切换横竖屏时
+    window.addEventListener('orientationchange', init)
+
+  </script>
+  <link rel="stylesheet" href="./css/mobiledy.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-logo">
+
+    </div>
+    <div class="HomeHeader-searchB">搜索</div>
+    <div class="charge">充值</div>
+    <div class="openapp">打开APP</div>
+  </div>
+  <div class="header-nav">
+    <div class="homenav-content">
+      <span class="HomeNav-contentName cur">推荐</span>
+      <span class="HomeNav-contentName">英雄联盟</span>
+      <span class="HomeNav-contentName">绝地求生</span>
+      <span class="HomeNav-contentName">王者荣耀</span>
+      <span class="HomeNav-contentName">和平精英</span>
+      <span class="HomeNav-contentName">颜值</span>
+      <span class="HomeNav-contentName">一起看</span>
+      <span class="HomeNav-contentName">户外</span>
+      <span class="HomeNav-contentName">DNF</span>
+      <span class="HomeNav-contentName">穿越火线</span>
+      <span class="HomeNav-contentName">主机游戏</span>
+      <span class="HomeNav-contentName">二次元</span><span class="HomeNav-contentName">DOTA2</span>
+      <span class="HomeNav-contentName">APEX英雄</span>
+      <span class="HomeNav-contentName">综合手游</span>
+      <span class="HomeNav-contentName">美食</span>
+      <span class="HomeNav-contentName">棋牌娱乐</span>
+      <span class="HomeNav-contentName">CS:GO</span>
+      <span class="HomeNav-contentName"></span>
+      <span class="HomeNav-contentName">自走棋</span>
+      <span class="HomeNav-contentName">CF手游</span>
+    </div>
+  </div>
+</body>
+
+</html>

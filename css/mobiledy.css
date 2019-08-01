@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: .54rem;
+    width: 4.392rem;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    letter-spacing: .0092rem;
+}
+.header-logo{
+    width: .76rem;
+    height: .34rem;
+    background-image: url(../moible-img/logo.png);
+    background-size: 100%;
+    margin: 0 0 0 .1rem;
+    
+}
+.HomeHeader-searchB{
+    width: 1.24rem;
+    height: .28rem;
+    background-image: url(../moible-img/search-logo.png);
+    background-repeat: no-repeat;
+    background-size: 14.5%;
+    box-sizing: border-box;
+    background-position: .09rem .05rem;
+    margin: 0 0 0 .1rem;
+    padding-left: .325rem;
+    font-size: .14rem;
+    border-radius: .14rem;
+    background-color: #f2f2f2;
+    color: #bbb;
+    line-height: .28rem;
+    letter-spacing: .0092rem;
+}
+.charge{
+    width: .51rem;
+    height: .3rem;
+    text-align: center;
+    line-height: .28rem;
+    font-size: .12rem;
+    margin-left: .1rem;
+    border: .01rem solid #eee;
+    border-radius: .14rem;
+    color: #666;
+    letter-spacing: .0092rem;
+    
+}
+.openapp{
+    width: .74rem;
+    height: .28rem;
+    background-color: #ff5d23;
+    margin: 0 .1rem;
+    text-align: center;
+    line-height: .28rem;
+    font-size: .12rem;
+    border-radius: .14rem;
+    color:white; 
+    letter-spacing: .0092rem;
+}
+.header-nav{
+    width: 3.75rem;
+    height: .44rem;
+    background-color: white;
+    box-sizing: border-box;
+    /* padding-right: .45rem; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    font-size: 0;
+}
+.HomeNav-contentName{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 .11rem;
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    color: #3f3f3f;
+
+}

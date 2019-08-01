@@ -1,0 +1,39 @@
+.right-menu-a-foucs1{
+    padding: 16px 0 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 22px;
+    outline: 0;
+    position: relative;
+
+}
+.right-menu-a-foucs:hover .focus{
+    display: block;
+}
+
+.focus1{
+    width: 294px;
+    height: 290px;
+    background-color: white;
+    position: absolute;
+    left: -130px;
+    top: 65px;
+    border-radius: 8px;
+    /* display: none; */
+    border-top: 3px solid #FF5D23;
+    z-index: 2;
+}
+.sanjiao-focus1{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-bottom: 6px solid red;
+    border-top: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    left: 50%;
+    top: -14px;
+    border-radius: 5px 5px 0 0;
+}
