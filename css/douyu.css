@@ -110,6 +110,18 @@ html{
   margin-bottom: 5px;
   margin-top: 5px;
 }
+.fenlei-search h3{
+  margin-bottom: 4px;
+  color: #333;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+  left: 16px;
+  top: 5px;
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 .fenlei-list {
   display: table;
   content: "";
@@ -157,6 +169,11 @@ html{
   height: 44px;
   position: relative;
   margin: 8px 0px 0px 0px;
+}
+.fenlei-search .adv{
+  height: 44px;
+  position: relative;
+  margin: 8px 0px 0px 15px;
 }
 .fenlei-a:hover .fenlei {
   display: block;
@@ -366,7 +383,7 @@ html{
 }
 /*  */
 .header-right {
-  width: 348px;
+  /* width: 348px; */
   height: 68px;
   background-color: white;
   float: right;
@@ -471,7 +488,18 @@ html{
 .right-search {
   width: 160px;
   height: 52px;
+  /* background-color: yellow; */
+  float: left;
+}
+.fenlei-search {
+  width: 280px;
+  height: 390px;
   background-color: white;
+  position: absolute;
+  /* left: -115px; */
+  top: 61px;
+  border-radius: 10px;
+  display: none;
 }
 .icon-diannao-copy {
   font-size: 20px !important;
@@ -483,12 +511,12 @@ html{
   margin: 0 auto;
 }
 .search {
-  width: 120px;
+  /* width: 120px; */
   height: 36px;
   background-color: white;
-  margin: 16px 8px 0 0;
+  margin: 16px 10px 0 0;
   position: relative;
-  float: right;
+  /* float: left; */
   border-radius: 100px;
   background-color: #f0f0f0;
   padding: 0 16px;
@@ -507,7 +535,18 @@ html{
   position: relative;
   right: 12px;
 }
+.right-search {
+  transition: all 0.5s linear;
+  margin:0 0 0 auto;
+}
+.right-search:hover {
+  width: 230px;
+}
+.right-search:hover .fenlei-search{
+  display: block;
+}
 .search-text {
+  width: 120px;
   height: 36px;
   line-height: 36px;
   float: left;
@@ -517,6 +556,17 @@ html{
   outline: 0;
   width: 80%;
   color: #333;
+  /* transition: width 1s linear; */
+  transition: width 1s linear;
+  
+}
+.search-text:focus{
+  /* width: 200px; */
+
+}
+.search-text:hover{
+  /* width: 200px; */
+  /* transition: width 1s linear; */
 }
 .loadingview {
   height: 531px;
